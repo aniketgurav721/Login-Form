@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGIN</title>
+	<style type="text/css">
+		.login-container{
+			height: 100vh;
+			width: 100%;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			bottom: 0px;
+			display: flex;
+		}
+		.login-form{
+			height: 100vh;
+			width: 50%;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			background-color: lightcoral;
+		}
+		.image{
+			height: 100vh;
+			width: 50%;
+		}
+		.form{
+			height: 380px;
+			width: 400px;
+			background-color: lightblue;
+			padding-left: 25px;
+			border-radius: 15px;
+		}
+		.lables{
+			font-weight: bolder;
+			font-size: 17px;
+			color: blueviolet;
+		}
+		.form-image{
+			height: 100vh;
+			width: 100%;
+		}
+		.inputs{
+			height: 30px;
+			width: 350px;
+			border: 2px solid blueviolet;
+			font-size: 14px;
+			font-weight: bolder;
+			font-family: Arial Black;
+			border: 1px solid blueviolet;
+			border-radius: 15px;
+			padding-left: 10px;
+
+		}
+		.inputs:hover{
+			border: 2px solid darkred;
+		}
+		.forgot{
+			padding-left: 110px;
+
+			font-size: 20px;
+
+		}
+		.form-button{
+			height: 40px;
+			width: 350px;
+			border: none;
+			margin-top: 25px;
+			margin-left: 10px;
+			font-size: 20px;
+			font-weight: bolder;
+			background-color: blueviolet;
+			border-radius: 20px;
+			transition-duration: 1s;
+
+
+		}
+		.form-button:hover{
+			cursor: pointer;
+			transform: scale(1.05);
+			background-color: darkred;
+			color: blueviolet;
+		}
+		.form-heading{
+			color: darkred;
+		}
+	</style>
+</head>
+<body>
+	<div class="login-container">
+		<div class="login-form">
+			<div class="form">
+				<h1 class="form-heading" align="center">Login Form</h1>
+				<label class="lables">Username</label>
+				<br>
+				<input type="text" name="" class="inputs" >
+				<br><br>
+				<label class="lables">Password</label>
+				<br>
+				<input type="Password" name="" class="inputs">
+				<br><br>
+				<a href="#" class="forgot">Forgot Password?</a>
+				<br><br>
+				<button class="form-button">Login</button>
+			</div>
+		</div>
+		<div class="image">
+			<img class="form-image" src="login_page.png">
+		</div>
+	</div>
+</body>
+</html>
